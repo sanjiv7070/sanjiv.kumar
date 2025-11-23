@@ -1,1 +1,189 @@
-<h1>SANJIV</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjeev Kumar - Digital Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+ background-blend-mode: multiply,multiply;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 20px;
+        }
+        .photo {
+            width: 150px;
+            height: 200px;
+            border: 1px solid #ccc;
+            margin: 0 auto 10px;
+            display: block;
+        }
+        h1 {
+            margin: 10px 0;
+            color: orange;
+        }
+        section {
+            margin: 20px 0;
+        }
+        h2 {
+            color: orange;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .project {
+            margin-bottom: 20px;
+        }
+        .project h3 {
+            margin: 0;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 600px) {
+            .container {
+                margin: 10px;
+                padding: 10px;
+            }
+            .photo {
+                width: 100px;
+                height: 133px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="/image/sanjiv.png" alt="sanjeev kumar" class="photo">
+            <h1>Sanjeev Kumar</h1>
+            <p>Software Engineer & AI Enthusiast</p>
+        </header>
+
+        <section id="personal-details">
+            <h2>Personal Details</h2>
+            <ul>
+                <li><strong>Full Name:</strong> Sanjeev Kumar</li>
+                <li><strong>Date of Birth:</strong> January 15, 1995</li>
+                <li><strong>Nationality:</strong> Indian</li>
+                <li><strong>Phone:</strong> +91-9876543210</li>
+                <li><strong>Email:</strong> <a href="mailto:sanjeev.kumar@example.com">sanjeev.kumar@example.com</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/sanjeevkumar" target="_blank">linkedin.com/in/sanjeevkumar</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/sanjeevkumar" target="_blank">github.com/sanjeevkumar</a></li>
+                <li><strong>Website/Portfolio:</strong> <a href="https://sanjeevkumarportfolio.com" target="_blank">sanjeevkumarportfolio.com</a></li>
+            </ul>
+        </section>
+
+        <section id="address">
+            <h2>Address</h2>
+            <ul>
+                <li><strong>Permanent Address:</strong> 123, MG Road, Sector 5, New Delhi, Delhi - 110001, India</li>
+                <li><strong>Current Address:</strong> 456, Tech Park, Bangalore, Karnataka - 560001, India</li>
+            </ul>
+        </section>
+
+        <section id="qualifications">
+            <h2>Qualifications</h2>
+            <ul>
+                <li><strong>Bachelor of Technology in Computer Science</strong><br>Indian Institute of Technology (IIT) Delhi, 2013-2017<br>GPA: 8.5/10<br>Relevant Coursework: Data Structures, Algorithms, Machine Learning, Web Development</li>
+                <li><strong>Master of Science in Artificial Intelligence</strong><br>Stanford University, USA, 2018-2020<br>GPA: 3.8/4.0<br>Thesis: "Applications of Deep Learning in Natural Language Processing"</li>
+                <li><strong>Certifications:</strong><br>AWS Certified Solutions Architect (2021)<br>Google Cloud Professional Cloud Architect (2022)<br>Coursera Machine Learning Specialization (Andrew Ng, 2019)</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Technical Skills:</strong> Programming Languages: Python, Java, C++, JavaScript; Frameworks/Libraries: TensorFlow, PyTorch, React.js, Node.js; Tools: Docker, Kubernetes, Git, Jenkins, AWS, GCP; Databases: MySQL, MongoDB, PostgreSQL</li>
+                <li><strong>Soft Skills:</strong> Problem-Solving, Team Collaboration, Leadership, Communication; Agile/Scrum Methodologies</li>
+                <li><strong>Languages:</strong> English (Fluent), Hindi (Native), Kannada (Conversational)</li>
+            </ul>
+        </section>
+
+        <section id="project-work">
+            <h2>Project Work</h2>
+            <div class="project">
+                <h3>AI-Powered Chatbot for E-Commerce (2022)</h3>
+                <p><strong>Description:</strong> Developed a conversational AI chatbot using Python, TensorFlow, and Dialogflow to handle customer queries for an online retail platform, improving response time by 40%.</p>
+                <p><strong>Technologies:</strong> Python, TensorFlow, Dialogflow, MongoDB</p>
+                <p><strong>Role:</strong> Lead Developer</p>
+                <p><strong>Outcome:</strong> Deployed on AWS, handling 10,000+ daily interactions.</p>
+                <p><strong>GitHub Link:</strong> <a href="https://github.com/sanjeevkumar/chatbot-project" target="_blank">github.com/sanjeevkumar/chatbot-project</a></p>
+            </div>
+            <div class="project">
+                <h3>Real-Time Data Analytics Dashboard (2021)</h3>
+                <p><strong>Description:</strong> Built a web-based dashboard for visualizing IoT sensor data using React.js and Node.js, integrated with real-time streaming via Kafka.</p>
+                <p><strong>Technologies:</strong> React.js, Node.js, Kafka, Elasticsearch</p>
+                <p><strong>Role:</strong> Full-Stack Developer</p>
+                <p><strong>Outcome:</strong> Reduced data processing latency by 30% for a smart city project.</p>
+                <p><strong>Demo Link:</strong> <a href="https://sanjeevkumarportfolio.com/dashboard-demo" target="_blank">sanjeevkumarportfolio.com/dashboard-demo</a></p>
+            </div>
+            <div class="project">
+                <h3>Machine Learning Model for Fraud Detection (2020)</h3>
+                <p><strong>Description:</strong> Created a predictive model using scikit-learn and XGBoost to detect fraudulent transactions in financial data, achieving 95% accuracy.</p>
+                <p><strong>Technologies:</strong> Python, scikit-learn, XGBoost, Pandas</p>
+                <p><strong>Role:</strong> Data Scientist</p>
+                <p><strong>Outcome:</strong> Implemented in a banking app, saving $500K annually in losses.</p>
+                <p><strong>Publication:</strong> Presented at IEEE Conference on Data Science (2021).</p>
+            </div>
+            <div class="project">
+                <h3>Personal Portfolio Website (Ongoing)</h3>
+                <p><strong>Description:</strong> Designed and developed a responsive portfolio website showcasing projects, skills, and blogs.</p>
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Bootstrap</p>
+                <p><strong>Role:</strong> Solo Developer</p>
+                <p><strong>Live Site:</strong> <a href="https://sanjeevkumarportfolio.com" target="_blank">sanjeevkumarportfolio.com</a></p>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            <ul>
+                <li><strong>Senior Software Engineer</strong> at TechCorp India, Bangalore (2020-Present)<br>Led a team of 5 developers in building scalable AI solutions. Improved system efficiency by 25% through optimization.</li>
+                <li><strong>Intern</strong> at Google, Mountain View (2019)<br>Worked on NLP projects for search algorithms.</li>
+            </ul>
+        </section>
+
+        <section id="interests">
+            <h2>Interests & Hobbies</h2>
+            <p>Reading tech blogs, hiking, playing chess, contributing to open-source projects.</p>
+        </section>
+    </div>
+
+    <script>
+        // Simple JS for interactivity (e.g., smooth scrolling or alerts)
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
